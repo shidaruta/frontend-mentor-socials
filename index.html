@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+</style>
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    *{
+      font-family: "Quicksand", "Nunito";
+      font-size: .85em;
+
+    }
+    body{
+      background-color: #000;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      
+    }
+    .card{
+      background-color:#1F1F1F ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+
+    }
+    .card h2{
+      margin-bottom: -3px;
+      font-size: 1.5em;
+    }
+    #location{
+      color: #99AD5C;
+      font-weight: 700;
+    }
+    .profile-img{
+      width: 50px;
+      border-radius: 50%;
+    }
+    .profile-img:hover{
+      box-shadow: 5px 5px 20px rgba(110, 199, 28, 0.3),
+              -5px -5px 20px rgba(110, 199, 28, 0.3), 
+              -5px 5px 20px rgba(110, 199, 28, 0.3), 
+              5px -5px 20px rgba(110, 199, 28, 0.3);
+    }
+
+
+    .socials{
+      margin-top: 7px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: stretch;
+      text-align: center;
+    }
+    .social-item{
+      background-color: #333333;
+      padding: 7px;
+      border-radius: 3px;
+      font-weight: 700;
+    }
+    .social-item:hover{
+      background-color:#fff ;
+      color: #000;
+      box-shadow: 5px 5px 10px rgba(110, 199, 28, 0.3),
+              -5px -5px 10px rgba(110, 199, 28, 0.3), 
+              -5px 5px 10px rgba(110, 199, 28, 0.3), 
+              5px -5px 10px rgba(110, 199, 28, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="assets/images/avatar-jessica.jpeg" alt="profile" class="profile-img">
+    <h2>Jessica Randall</h2>
+    <p id="location">London, United Kingdom</p>
+    <p>"Front-end developer and avid reader."</p>
+
+    <div class="socials">
+      <div class="social-item">GitHub</div>
+      <div class="social-item">Frontend Mentor</div>
+      <div class="social-item">LinkedIn</div>
+      <div class="social-item">Twitter</div>
+      <div class="social-item">Instagram</div>
+      
+    </div>
+  </div>
+
+ 
+  
+</body>
+</html>
